@@ -1,0 +1,35 @@
+@media (max-width: 667px) {
+  .process {
+    max-width: 50px;
+    width: 100%;
+  }
+  .bar img {
+    height: 40px;
+  }
+  .open-close-icon {
+    font-size: 26px;
+  }
+}
+@media (max-width: 367px) {
+  .process {
+    max-width: 42px;
+    width: 100%;
+  }
+  .bar {
+    padding-inline: 5px;
+  }
+  aside img {
+    height: 37px;
+  }
+  .open-close-icon {
+    font-size: 23px;
+  }
+  .para {
+    max-width: 125px;
+    width: 100%;
+    font-size: 14px;
+  }
+  .side {
+    padding: 10px;
+  }
+}

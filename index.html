@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="keywords"
+      content="recipes, meals, ingredients, cooking, cuisine, food, dishes, culinary, chef, gastronomy"
+    />
+    <meta name="description" content="Exam Js & Jquery - Yummy Food App" />
+    <meta name="author" content="Mohamed Reda" />
+    <!-- Logo Img -->
+    <link rel="shortcut icon" href="imge/logo.png" type="image/x-icon" />
+    <!-- Font Awesome File-->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- Bootstrap File -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Main style File -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <title>Yummy</title>
+  </head>
+  <body>
+    <div class="loading bg-black position-fixed">
+      <i class="fa-solid text-white fa-spinner fa-spin fa-5x"></i>
+    </div>
+    <aside class="position-fixed d-flex">
+      <div
+        class="side position-relative text-white d-flex flex-column justify-content-between"
+      >
+        <ul class="list-unstyled overflow-hidden">
+          <li class="py-2 position-relative cursor-pointer" id="searchYummy">
+            Search
+          </li>
+          <li class="py-2 position-relative cursor-pointer" id="categoryYummy">
+            Categories
+          </li>
+          <li class="py-2 position-relative cursor-pointer" id="areaYummy">
+            Area
+          </li>
+          <li class="py-2 position-relative cursor-pointer" id="ingredYummy">
+            Ingredients
+          </li>
+          <li class="py-2 position-relative cursor-pointer" id="contactYummy">
+            Contact Us
+          </li>
+        </ul>
+        <div class="d-flex flex-column gap-3">
+          <div class="links-social d-flex gap-3">
+            <i class="fa-brands fa-facebook cursor-pointer"></i>
+            <i class="fa-brands fa-twitter cursor-pointer"></i>
+            <i class="fa-solid fa-globe cursor-pointer"></i>
+          </div>
+          <p class="para">Copyright Â© 2019 All Rights Reserved.</p>
+        </div>
+      </div>
+      <div class="bar py-4 text-center bg-white bg-black">
+        <img src="./imge/logo.png" alt="logo" />
+        <i
+          class="fa-solid open-close-icon fa-2x fa-align-justify cursor-pointer"
+        ></i>
+        <div class="share-icon">
+          <i class="fa-solid fa-globe d-block cursor-pointer"></i>
+          <i class="fa-solid fa-share-nodes cursor-pointer"></i>
+        </div>
+      </div>
+    </aside>
+    <div class="content d-flex min-vh-100">
+      <div class="process"></div>
+      <div class="container" id="dataContainer">
+        <div class="row py-5 g-4" id="rowContainer"></div>
+      </div>
+    </div>
+    <!-- Jquery File -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <!-- Bootstrap CSS File -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Man JS File -->
+    <script src="js/index.js"></script>
+  </body>
+</html>
